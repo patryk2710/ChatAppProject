@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "505102218784",
+    "project_id": "android-chat-app-aa7e9",
+    "storage_bucket": "android-chat-app-aa7e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505102218784:android:819086db2bb2a9b247ee45",
+        "android_client_info": {
+          "package_name": "com.patryk.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505102218784-tmoga970qj7nhdcqjtgqkfbkl53r5cbp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACTKmqd9KGPOiod5R8UuHqE2J2bqx43II"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505102218784-tmoga970qj7nhdcqjtgqkfbkl53r5cbp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
