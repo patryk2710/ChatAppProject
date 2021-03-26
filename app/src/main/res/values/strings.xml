@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Chat</string>
     <string name="enter_message_here">Enter Message Here</string>
+    <string name="settings">Settings</string>
+    <string name="sign_out">SIGN OUT</string>
+    <string name="logged_in_user_email">Logged in user email</string>
 </resources>
