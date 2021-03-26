@@ -99,19 +99,6 @@ class MainActivity : AppCompatActivity() {
             super.onOptionsItemSelected(item)
         }
     }
-//    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-//
-//        return when (item.itemId) {
-//            R.id.settings -> {
-//                //Log.d("test", item.itemId.toString())
-//                this.showSettings()
-//                true
-//            }
-//            else -> {
-//                super.onOptionsItemSelected(item)
-//            }
-//        }
-//    }
 
     override fun onStart() {
         super.onStart()
@@ -171,11 +158,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun addMessage() {
-//        val newMessage = edMessage.text.toString()
-//        messages.add(addMessage)
-//        database.child("messages").setValue(messages)
-//        edMessage.setText("")
-//        closeKeyBoard()
         val formatter: DateTimeFormatter = DateTimeFormatter . ofPattern("dd.MM.yyyy HH:mm")
         val newMessage: Message = Message(edMessage.text.toString(),
             currentUser?.email.toString(),
